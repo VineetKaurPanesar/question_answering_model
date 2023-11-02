@@ -1,0 +1,5 @@
+There are 4 libraries which plays the significant role to create this ML model;
+1. Transformers- This library serves as the base of the project.
+2. Torch 
+3. Numpy 
+4. Tensorflow
