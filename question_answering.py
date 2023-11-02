@@ -11,19 +11,6 @@ Original file is located at
 
 from transformers import pipeline
 
-model=pipeline(task="sentiment-analysis")
-
-answer=model("This is awesome")
-print(answer)
-
-model=pipeline(model="distilbert-base-uncased-finetuned-sst-2-english")
-
-answers=model(["this is beautiful","this is bad"])
-answers
-
-ans=model(["this is awesome","you are much rude","i love you more"])
-ans
-
 #question answering
 model=pipeline(task="question-answering")
 
